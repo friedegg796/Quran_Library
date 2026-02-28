@@ -16,8 +16,8 @@ of your custom decoders. See `ma_decoding_backend_vtable` for the functions you 
 The `onInitFile`, `onInitFileW` and `onInitMemory` functions are optional.
 */
 #include "../miniaudio.c"
-#include "../extras/decoders/libvorbis/miniaudio_libvorbis.c"
-#include "../extras/decoders/libopus/miniaudio_libopus.c"
+#include "../miniaudio_libvorbis.c"
+
 
 #include <stdio.h>
 

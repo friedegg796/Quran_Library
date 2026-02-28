@@ -6,8 +6,7 @@ rather than the low level decoding API. You can use this to add support for Opus
 example (via libopus).
 */
 #include "../miniaudio.c"
-#include "../extras/decoders/libvorbis/miniaudio_libvorbis.c"
-#include "../extras/decoders/libopus/miniaudio_libopus.c"
+#include "../miniaudio_libvorbis.c"
 
 #include <stdio.h>
 
