@@ -17,3 +17,10 @@ while wronginp == True:
   print("There was an error, try again.")
 
 print("thank") 
+
+
+audiomeasured = OggVorbis("Quran/AbuBakrAlShatri/1.ogg")
+
+lengh = audiomeasured.info.length
+
+print(lengh)
